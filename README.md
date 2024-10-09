@@ -19,7 +19,7 @@ O desafio pode ser acessado pelo [link](desafio-tecnico.md).
 
 ## Avaliação
 
-A sua solução será avaliada durante a execução do desafio (Live Coding) e posteriormente pelo time ténico aqui da RankyMyApp, com base nos seguintes critérios:
+A sua solução será avaliada durante a execução do desafio (Live Coding) e posteriormente pelo time ténico, com base nos seguintes critérios:
 
 ### Execução
 

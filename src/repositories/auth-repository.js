@@ -14,9 +14,4 @@ function findUserByEmail(email) {
   });
 }
 
-
-
-export const userService = {
-  signUp,
-  findUserByEmail,
-};
+export const authRepository = { signUp, findUserByEmail };
