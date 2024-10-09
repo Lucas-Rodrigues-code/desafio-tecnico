@@ -10,8 +10,7 @@ async function signUp(name, email, password) {
     throw new CustomError("this email already in use", "badRequest");
   }
 
-  const user = authRepository.signUp(name, email, password);
-
+  const user = await authRepository.signUp(name, email, password);
   await sendEmail(user.email);
   return user;
 }
