@@ -17,7 +17,10 @@ export async function signUp(req, res) {
       return res
         .status(400)
         .send({ error: error.name, message: error.message });
-    res.status(500).send(error);
+    res.status(500).send({
+      error: "InternalServerError",
+      message: "An unexpected error occurred. Please try again later.",
+    });
   }
 }
 
