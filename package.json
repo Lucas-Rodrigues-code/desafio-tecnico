@@ -1,0 +1,24 @@
+{
+  "name": "desafio-tecnico-rankmyapp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "<div align=\"center\">\r   <br>\r   <img src=\"https://yt3.ggpht.com/SwG0Lofb6Qx5p3kHTWDLkIqJo2vly7dpAAwk2_CKb_Resx2TLc5DSfPsU37jfjqpcGs7lTFV=s900-c-k-c0x00ffffff-no-rj\" alt=\"RankMyApp\" width=\"200\">\r   <br />\r   <h1 style=\"font-size: 38px;\"># Desafio Tecnico - RankMyApp 2024</h1>\r   <p>Este documento descreve o desafio técnico ao candidato para a vaga de pessoa desenvolvedora - RankyMyApp</p>\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.5"
+  }
+}
